@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#you {
+  @apply justify-start;
+}
+
+#you .message-content {
+  @apply justify-start;
+}
+
+#you .message-meta {
+  @apply justify-start ml-1.5;
+}
+
+#other {
+  @apply justify-end;
+}
+
+#other .message-content {
+  @apply justify-end bg-blue-300;
+}
+
+#other .message-meta {
+  @apply justify-end mr-1.5;
+}
